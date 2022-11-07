@@ -1,4 +1,23 @@
-@font-face {
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+nav{
     font-family: 'Kanit', sans-serif;
-    src: url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+}
+body {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+    position: relative;
+    background-color: #000000 !important;
+    color: #fff !important
+}
+
+.nav-link{
+    color:#fff !important;
+}
+.navbar{
+    /* background-color: #000000 !important; */
+    background: transparent !important;
+}
+.bi-terminal-fill{
+    color: #fff;
 }
