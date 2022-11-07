@@ -13,6 +13,11 @@
             </li>
           </ul>
           <div class="d-flex">
+            <div class="me-3">
+              <a href="https://www.youtube.com/watch?v=5cRIb3FI9xs">
+                <i class="bi bi-youtube"></i>
+              </a>
+            </div>
             <div class="name">
               <span
                 ><h4><strong>รัชพล หินซุย 6410450257</strong></h4></span
@@ -95,6 +100,9 @@ export default {
   font-weight: 500;
 }
 .name {
+  color: #000000;
+}
+.bi-youtube {
   color: #000000;
 }
 </style>
