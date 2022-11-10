@@ -8,11 +8,11 @@ body {
     overflow-x: hidden;
     position: relative;
     background-color: #000000 !important;
-    color: #fff !important
+    color: violet !important
 }
 
 .nav-link{
-    color:#fff !important;
+    color:lightgreen !important;
 }
 .navbar{
     /* background-color: #000000 !important; */

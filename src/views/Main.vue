@@ -12,28 +12,16 @@
               <router-link class="nav-link" to="/Contact">Contact</router-link>
             </li>
           </ul>
-          <div class="d-flex">
-            <div class="me-3">
-              <a href="https://www.youtube.com/watch?v=5cRIb3FI9xs">
-                <i class="bi bi-youtube"></i>
-              </a>
-            </div>
-            <div class="name">
-              <span
-                ><h4><strong>รัชพล หินซุย 6410450257</strong></h4></span
-              >
-            </div>
-          </div>
         </div>
       </div>
     </nav>
     <main>
-      <div class="text-box ms-5">
+      <div class="position-absolute top-50 text-box ms-5">
         <p>DevCamp KU</p>
         <h1>Team 418</h1>
         <h3>Welcome to my site</h3>
         <div class="row d-inline-flex p-2">
-          <router-link class="link" to="/Contact">Contact Us</router-link>
+          <router-link class="link rounded" to="/Contact">Contact Us</router-link>
         </div>
       </div>
     </main>
@@ -49,7 +37,7 @@ export default {
 <style lang="scss" scoped>
 .mainPage {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), transparent),
-    url(../assets/background.png);
+    url(../assets/background_one.png);
   width: 100%;
   height: 100vh;
   background-size: cover;
@@ -70,7 +58,7 @@ export default {
   line-height: 160px;
   margin-left: -10px;
   color: transparent;
-  -webkit-text-stroke: 1px #fff;
+  -webkit-text-stroke: 1px violet;
   background: url(../assets/back.png);
   -webkit-background-clip: text;
   background-position: 0 0;

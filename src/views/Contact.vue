@@ -12,13 +12,6 @@
               <router-link class="nav-link" to="/Contact">Contact</router-link>
             </li>
           </ul>
-          <div class="d-flex">
-            <div class="name">
-              <span
-                ><h4><strong>รัชพล หินซุย 6410450257</strong></h4></span
-              >
-            </div>
-          </div>
         </div>
       </div>
     </nav>
