@@ -1,27 +1,15 @@
 <template>
   <div class="mainPage">
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid">
-        <router-link class="navbar-brand" to="/">
-          <i class="bi bi-terminal-fill"></i>
-        </router-link>
-        <router-link class="nav-link" to="/">Home</router-link>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <router-link class="nav-link" to="/Contact">Contact</router-link>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <Navbar />
     <main>
       <div class="position-absolute top-50 text-box ms-5">
         <p>DevCamp KU</p>
         <h1>Team 418</h1>
         <h3>Welcome to my site</h3>
         <div class="row d-inline-flex p-2">
-          <router-link class="link rounded" to="/Contact">Contact Us</router-link>
+          <router-link class="link rounded" to="/Contact"
+            >Contact Us</router-link
+          >
         </div>
       </div>
     </main>
@@ -29,8 +17,13 @@
 </template>
 
 <script>
+import Navbar from "../components/Navbar.vue";
+
 export default {
   name: "Main",
+  components: {
+    Navbar,
+  },
 };
 </script>
 
