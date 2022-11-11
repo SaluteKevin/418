@@ -1,5 +1,5 @@
 <template>
-  <div class="contactPage">
+  <div class="contactPage mainPage">
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
         <router-link class="navbar-brand" to="/">
@@ -17,82 +17,109 @@
     </nav>
     <main class="container">
       <div class="mainpage row">
-
-        <div class="col">
-          <div class="card" style="width: 24rem">
-            <img src="@/assets/cardOne.png" class="rounded"/>
-            <div class="card-img-overlay">
-              <div class="card-body">
-                <div>
-                  <img
-                    src="@/assets/nueng.png"
-                    class="img-thumbnail"
-                    height="30%"
-                    width="30%"
-                    alt="..."
-                  />
-                </div>
-                <div>
-                  <h5 class="card-title">
-                    <h4><strong>รัชพล หินซุย 6410450257</strong></h4>
-                  </h5>
-                  <p class="card-text">สวัสดีครับ Hello World</p>
+        <div class="row g-4">
+          <div class="col">
+            <div class="card" style="width: 24rem">
+              <img src="@/assets/cardOne.png" class="rounded-top"/>
+              <div class="card-img-overlay ">
+                <div class="card-body ">
+                  <div>
+                    <img
+                      src="@/assets/nueng.png"
+                      class="img-thumbnail"
+                      height="30%"
+                      width="30%"
+                      alt="..."
+                    />
+                  </div>
+                  <div>
+                    <h5 class="card-title">
+                      <h4><strong>รัชพล หินซุย 6410450257</strong></h4>
+                    </h5>
+                    <p class="card-text">สวัสดีครับ Hello World</p>
+                  </div>
                 </div>
               </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item white-text" style="background-color: #050e1f">An item</li>
+              </ul>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item white-text" style="background-color: #0b1f45">An item</li>
+              </ul>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item white-text" style="background-color: #11306b">An item</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card" style="width: 24rem">
+              <img src="@/assets/cardTwo.png" class="rounded-top"/>
+              <div class="card-img-overlay">
+                <div class="card-body ">
+                  <div>
+                    <img
+                      src="@/assets/kevin.png"
+                      class="img-thumbnail"
+                      height="30%"
+                      width="30%"
+                      alt="..."
+                    />
+                  </div>
+                  <div>
+                    <h5 class="card-title">
+                      <h4><strong>ศรุต คำยืน 6410450273</strong></h4>
+                    </h5>
+                    <p class="card-text">สวัสดีครับ Hello World</p>
+                  </div>
+                </div>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item white-text" style="background-color: #061515">งานอิดเรก: เล่นเกม, เล่นดนตรี</li>
+              </ul>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item white-text" style="background-color: #103b3b">สิ่งที่อยากทำ: ต่อ model RG ให้เสร็จ, หาเงิน, เคลียร์เกม</li>
+              </ul>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item white-text" style="background-color: #1a6161">เกมที่เล่นช่วงนี้: Genshin, Nikke</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card" style="width: 24rem">
+              <img src="@/assets/cardThree.png" class="rounded-top"/>
+              <div class="card-img-overlay">
+                <div class="card-body ">
+                  <div>
+                    <img
+                      src="@/assets/eng.png"
+                      class="img-thumbnail"
+                      height="30%"
+                      width="30%"
+                      alt="..."
+                    />
+                  </div>
+                  <div>
+                    <h5 class="card-title">
+                      <h4><strong>ลีโอณิช เซ็ง 6310450051</strong></h4>
+                    </h5>
+                    <p class="card-text">สวัสดีค่ะ Hello World</p>
+                  </div>
+                </div>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item white-text" style="background-color: #05335c">An item</li>
+              </ul>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item white-text" style="background-color: #074882">An item</li>
+              </ul>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item white-text" style="background-color: #095da8">An item</li>
+              </ul>
             </div>
           </div>
         </div>
-
-        <div class="col">
-          <div class="card" style="width: 24rem">
-            <img src="@/assets/cardTwo.png" class="rounded"/>
-            <div class="card-img-overlay">
-              <div class="card-body ">
-                <div>
-                  <img
-                    src="@/assets/kevin.png"
-                    class="img-thumbnail"
-                    height="30%"
-                    width="30%"
-                    alt="..."
-                  />
-                </div>
-                <div>
-                  <h5 class="card-title">
-                    <h4><strong>ศรุต คำยืน 6410450273</strong></h4>
-                  </h5>
-                  <p class="card-text">สวัสดีครับ Hello World</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card" style="width: 24rem">
-            <img src="@/assets/cardThree.png" class="rounded"/>
-            <div class="card-img-overlay">
-              <div class="card-body ">
-                <div>
-                  <img
-                    src="@/assets/eng.png"
-                    class="img-thumbnail"
-                    height="30%"
-                    width="30%"
-                    alt="..."
-                  />
-                </div>
-                <div>
-                  <h5 class="card-title">
-                    <h4><strong>ลีโอณิช เซ็ง 6310450051</strong></h4>
-                  </h5>
-                  <p class="card-text">สวัสดีค่ะ Hello World</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
       </div>
     </main>
   </div>
@@ -105,10 +132,19 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.card-body {
+.mainPage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), transparent),
+    url(../assets/background_one.png);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.card-body{
   color: #fff !important;
 }
-.name {
+.white-text{
   color: #fff;
 }
 </style>
