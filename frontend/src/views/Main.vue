@@ -1,7 +1,8 @@
 <template>
   <div class="mainPage">
     <Navbar />
-    <main>
+
+    <!-- <main>
       <div class="position-absolute top-50 text-box ms-5">
         <p>DevCamp KU</p>
         <h1>Team 418</h1>
@@ -12,7 +13,7 @@
           >
         </div>
       </div>
-    </main>
+    </main> -->
   </div>
 </template>
 
