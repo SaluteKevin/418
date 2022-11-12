@@ -17,9 +17,9 @@
     </nav>
     <main class="container">
       <div class="mainpage row">
-        <div class="row g-5">
+        <div class="row g-4">
           <div class="col">
-            <div class="card ho" style="width: 22rem">
+            <div class="card ho" style="width: 24rem">
               <img src="@/assets/cardOne.png" class="rounded-top"/>
               <div class="card-img-overlay ">
                 <div class="card-body ">
@@ -53,7 +53,7 @@
           </div>
 
           <div class="col">
-            <div class="card ho" style="width: 22rem">
+            <div class="card ho" style="width: 24rem">
               <img src="@/assets/cardTwo.png" class="rounded-top"/>
               <div class="card-img-overlay">
                 <div class="card-body ">
@@ -87,7 +87,7 @@
           </div>
 
           <div class="col">
-            <div class="card ho" style="width: 22rem">
+            <div class="card ho" style="width: 24rem">
               <img src="@/assets/cardThree.png" class="rounded-top"/>
               <div class="card-img-overlay">
                 <div class="card-body ">
@@ -137,6 +137,7 @@ export default {
     url(../assets/background_one.png);
   width: 100%;
   height: 100vh;
+  background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -156,9 +157,9 @@ export default {
   text-shadow: none !important;
   box-sizing: border-box !important;
   transition: all 0.5s ease !important;
-  -webkit-transform: scale(1.1) !important;
-  -ms-transform: scale(1.1) !important;
-  transform: scale(1.1) !important;
+  -webkit-transform: scale(1.05) !important;
+  -ms-transform: scale(1.05) !important;
+  transform: scale(1.05) !important;
   z-index: 2;
 }
 </style>
