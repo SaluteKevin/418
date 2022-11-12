@@ -23,14 +23,17 @@
           <li class="nav-item">
             <router-link class="nav-link" to="/Contact">Contact</router-link>
           </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/Animals">Animal</router-link>
+          </li>
         </ul>
       </div>
     </div>
   </nav>
 </template>
 
-<script>
-export default {};
+<script setup>
+import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <style lang="scss" scoped></style>

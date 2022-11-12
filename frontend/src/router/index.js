@@ -14,6 +14,13 @@ const routes = [
     component: Contact
 
   },
+  {
+    path:"/Animals",
+    name:"Animals",
+    component: function () {
+      return import('@/views/Animal.vue');
+    }
+  }
 ]
 
 const router = createRouter({
