@@ -1,20 +1,6 @@
 <template>
   <div class="contactPage mainPage">
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid">
-        <router-link class="navbar-brand" to="/">
-          <i class="bi bi-terminal-fill"></i>
-        </router-link>
-        <router-link class="nav-link" to="/">Home</router-link>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <router-link class="nav-link" to="/Contact">Contact</router-link>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <Navbar />
     <main class="container">
       <div class="mainpage row">
         <div class="row g-4">
