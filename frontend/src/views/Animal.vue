@@ -4,14 +4,13 @@
     <main class="container">
       <div class="mainpage row">
         <div class="col-md-4">
-<!--          <div v-if="animals != null">-->
-
-<!--            <card-animal v-for="animal in animals"-->
-<!--                          :animal="animal"-->
-<!--                          :key="animal.id"-->
-<!--                         :url="`Animal/${animal.id}`">-->
-<!--            </card-animal>-->
-<!--            </div>-->
+          <div v-if="animals != null">
+            <card-animal v-for="animal in animals" :key="animal.id" class=""></card-animal>
+            <img src={{animal.image}}>
+            <div>Name: {{animal.name}}</div>
+            <div>Type: {{animal.type}}</div>
+            <div>Description {{animal.description}}</div>
+          </div>
           <card-animal>
 
           </card-animal>
