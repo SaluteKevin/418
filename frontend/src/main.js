@@ -7,5 +7,6 @@ import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "./style/style.css";
+import "three/build/three.js";
 
 createApp(App).use(store).use(router).mount('#app')
