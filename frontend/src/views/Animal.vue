@@ -2,7 +2,7 @@
   <div class="contactPage">
     <Navbar/>
     <main class="container">
-      <div class="mainpage row">
+      <div class="row">
         <div class="col-md-4">
 <!--          <div v-if="animals != null">-->
 
@@ -39,9 +39,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.card-body {
-  color: #000000 !important;
+.mainPage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), transparent);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
+
 
 .name {
   color: #fff;
