@@ -17,9 +17,9 @@
     </nav>
     <main class="container">
       <div class="mainpage row">
-        <div class="row g-4">
+        <div class="row g-5">
           <div class="col">
-            <div class="card" style="width: 24rem">
+            <div class="card ho" style="width: 22rem">
               <img src="@/assets/cardOne.png" class="rounded-top"/>
               <div class="card-img-overlay ">
                 <div class="card-body ">
@@ -40,20 +40,20 @@
                   </div>
                 </div>
               </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item white-text" style="background-color: #050e1f">An item</li>
+              <ul class="list-group list-group-flush ho">
+                <li class="list-group-item white-text" style="background-color: #050e1f">ชอบเขียนโค้ด</li>
               </ul>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item white-text" style="background-color: #0b1f45">An item</li>
+              <ul class="list-group list-group-flush ho">
+                <li class="list-group-item white-text" style="background-color: #0b1f45">ง่วงแต่ไม่นอน</li>
               </ul>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item white-text" style="background-color: #11306b">An item</li>
+              <ul class="list-group list-group-flush ho">
+                <li class="list-group-item white-text" style="background-color: #11306b">ขี้เกียจกลับบ้าน เดินทางนาน</li>
               </ul>
             </div>
           </div>
 
           <div class="col">
-            <div class="card" style="width: 24rem">
+            <div class="card ho" style="width: 22rem">
               <img src="@/assets/cardTwo.png" class="rounded-top"/>
               <div class="card-img-overlay">
                 <div class="card-body ">
@@ -74,20 +74,20 @@
                   </div>
                 </div>
               </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item white-text" style="background-color: #061515">งานอิดเรก: เล่นเกม, เล่นดนตรี</li>
+              <ul class="list-group list-group-flush ho">
+                <li class="list-group-item white-text" style="background-color: #061515">เล่นเกม, เล่นดนตรี</li>
               </ul>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item white-text" style="background-color: #103b3b">สิ่งที่อยากทำ: ต่อ model RG ให้เสร็จ, หาเงิน, เคลียร์เกม</li>
+              <ul class="list-group list-group-flush ho">
+                <li class="list-group-item white-text" style="background-color: #103b3b">อยาก ต่อ model RG ให้เสร็จ</li>
               </ul>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item white-text" style="background-color: #1a6161">เกมที่เล่นช่วงนี้: Genshin, Nikke</li>
+              <ul class="list-group list-group-flush ho">
+                <li class="list-group-item white-text" style="background-color: #1a6161">ชอบกิน</li>
               </ul>
             </div>
           </div>
 
           <div class="col">
-            <div class="card" style="width: 24rem">
+            <div class="card ho" style="width: 22rem">
               <img src="@/assets/cardThree.png" class="rounded-top"/>
               <div class="card-img-overlay">
                 <div class="card-body ">
@@ -108,14 +108,14 @@
                   </div>
                 </div>
               </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item white-text" style="background-color: #05335c">An item</li>
+              <ul class="list-group list-group-flush ho">
+                <li class="list-group-item white-text" style="background-color: #05335c">ใส่แว่น</li>
               </ul>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item white-text" style="background-color: #074882">An item</li>
+              <ul class="list-group list-group-flush ho">
+                <li class="list-group-item white-text" style="background-color: #074882">เสียงดัง</li>
               </ul>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item white-text" style="background-color: #095da8">An item</li>
+              <ul class="list-group list-group-flush ho">
+                <li class="list-group-item white-text" style="background-color: #095da8">ตื่นสาย</li>
               </ul>
             </div>
           </div>
@@ -138,13 +138,27 @@ export default {
   width: 100%;
   height: 100vh;
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
   position: relative;
 }
+
+
+
 .card-body{
   color: #fff !important;
 }
 .white-text{
   color: #fff;
+}
+
+.ho:hover{
+  text-shadow: none !important;
+  box-sizing: border-box !important;
+  transition: all 0.5s ease !important;
+  -webkit-transform: scale(1.1) !important;
+  -ms-transform: scale(1.1) !important;
+  transform: scale(1.1) !important;
+  z-index: 2;
 }
 </style>
