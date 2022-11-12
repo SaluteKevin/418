@@ -25,8 +25,20 @@
 <script>
 import Navbar from "../components/Navbar.vue";
 import CardAnimal from "@/components/CardAnimal.vue";
+import { useAnimal } from '../store/animals';
 
 export default {
+  data(){
+    return{
+      animals: [],
+    };
+  },
+
+  async mounted(){
+    await useAnimal().fetchData;
+    this.animals = useAnimal().getAnimals
+  },
+
   components: {
     CardAnimal,
     Navbar
