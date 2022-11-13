@@ -1,19 +1,21 @@
 import {defineStore} from "pinia";
-import {collection,getDoc} from "firebase/firestore"
+import {collection,getDocs} from "firebase/firestore"
+import {db } from "@/firebase/index.js"
 
-export const useAninal = defineStore('animals',{
+export const useAnimal = defineStore('animals',{
     state: () => {
     return {
         animals: [],
-        key:"",
     }
 },
     getters:{
         getAnimals: (state) => state.animals
     },
     actions:{
-        async frechData(){
-
+        async fetchData(){
+                const queryData = await getDocs(collection(db,"animals"));
+                this.animals = queryData.docs.map((doc)=> doc.data());
+                console.log(queryData.docs.map((doc)=> doc.data()));
         }
     }
 })
