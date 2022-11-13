@@ -1,6 +1,6 @@
 import {defineStore} from "pinia";
 import {collection,getDocs} from "firebase/firestore"
-import {db} from "@/firebase"
+import {db } from "@/firebase/index.js"
 
 export const useAnimal = defineStore('animals',{
     state: () => {
@@ -15,6 +15,7 @@ export const useAnimal = defineStore('animals',{
         async fetchData(){
                 const queryData = await getDocs(collection(db,"animals"));
                 this.animals = queryData.docs.map((doc)=> doc.data());
+                console.log(queryData.docs.map((doc)=> doc.data()));
         }
     }
 })
