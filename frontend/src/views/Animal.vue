@@ -1,18 +1,17 @@
 <template>
   <div class="contactPage">
     <Navbar />
-    <main class="container">
-      <div class="mainpage row">
-        <div class="col-md-4">
-          <!--          <div v-if="animals != null">-->
-
-          <!--            <card-animal v-for="animal in animals"-->
-          <!--                          :animal="animal"-->
-          <!--                          :key="animal.id"-->
-          <!--                         :url="`Animal/${animal.id}`">-->
-          <!--            </card-animal>-->
-          <!--            </div>-->
-          <card-animal />
+    <main class="container mx-auto mt-4">
+      <div class="row">
+        <div v-if="animals != null" class="col">
+          <div v-for="animal in animals" class="row">
+            <card-animal
+              :title="animal.name"
+              :type="animal.type"
+              :detail="animal.description"
+              :image="animal.image"
+            />
+          </div>
         </div>
       </div>
     </main>
@@ -52,5 +51,9 @@ export default {
 
 .name {
   color: #fff;
+}
+
+.redbg {
+  background-color: red;
 }
 </style>
