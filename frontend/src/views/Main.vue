@@ -28,10 +28,7 @@
         <div class="text-header text-center">
           <h3>Concept Team</h3>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non
-            molestias quasi quos magni sint repellat odio voluptatem omnis rem
-            facere impedit quo, quae ipsa nulla ipsam hic quibusdam ducimus
-            laboriosam?
+            We, 418 (Error) Team, would like to present our theme concept is
           </p>
         </div>
         <div class="items text-center">
@@ -39,44 +36,46 @@
             <!-- concept-1 -->
             <div class="col-md-4">
               <div class="icons">
-                <img src="" alt="" />
+<!--                change icon to bootstrap -->
+<!--                tag i for-->
+                <i class="bi bi-bug-fill text-white fa-fw"></i>
               </div>
               <div class="desc">
-                <h5>lorem</h5>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Praesentium magnam quibusdam ut quaerat nostrum excepturi
-                  inventore porro quam placeat sed!
-                </p>
+                <h5>No Bug</h5>
+<!--                <p>-->
+<!--                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.-->
+<!--                  Praesentium magnam quibusdam ut quaerat nostrum excepturi-->
+<!--                  inventore porro quam placeat sed!-->
+<!--                </p>-->
               </div>
             </div>
 
             <!-- concept-2 -->
             <div class="col-md-4">
               <div class="icons">
-                <img src="" alt="" />
+                <i class="bi bi-code-slash text-white"></i>
               </div>
               <div class="desc">
-                <h5>lorem</h5>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Praesentium magnam quibusdam ut quaerat nostrum excepturi
-                  inventore porro quam placeat sed!
-                </p>
+                <h5>No Code</h5>
+<!--                <p>-->
+<!--                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.-->
+<!--                  Praesentium magnam quibusdam ut quaerat nostrum excepturi-->
+<!--                  inventore porro quam placeat sed!-->
+<!--                </p>-->
               </div>
             </div>
             <!-- concept-3 -->
             <div class="col-md-4">
               <div class="icons">
-                <img src="" alt="" />
+                <i class="bi bi-alarm text-white"></i>
               </div>
               <div class="desc">
-                <h5>lorem</h5>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Praesentium magnam quibusdam ut quaerat nostrum excepturi
-                  inventore porro quam placeat sed!
-                </p>
+                <h5>No time</h5>
+<!--                <p>-->
+<!--                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.-->
+<!--                  Praesentium magnam quibusdam ut quaerat nostrum excepturi-->
+<!--                  inventore porro quam placeat sed!-->
+<!--                </p>-->
               </div>
             </div>
           </div>
@@ -90,19 +89,12 @@
         <div class="row d-flex justify-content-center align-items-center">
           <div class="col-lg-6">
             <div class="row">
-              <h4 class="text-center">content</h4>
+              <h4 class="text-header text-center">Animatic Part</h4>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut,
-                qui quis harum dolorem porro provident officiis debitis dolorum
-                placeat voluptates maxime non aperiam adipisci beatae quasi
-                incidunt nostrum voluptatum exercitationem! Quos exercitationem
-                pariatur necessitatibus blanditiis adipisci saepe, ipsa magni id
-                sapiente ea dolore tempora optio atque labore cumque rerum illo.
-                Deleniti ipsa reprehenderit tenetur! Mollitia magni ex vero
-                totam. Error. Voluptatum dolores, dolor et ex ut animi minima
-                libero esse. Deleniti tenetur placeat sed repellat, facilis amet
-                totam asperiores eligendi fugit consectetur reiciendis eveniet
-                modi
+                We use ThreeJS library for making 3d website and use blender for making doggo model.
+              </p>
+              <p>
+                Library Download: <a href="https://threejs.org/">https://threejs.org/</a>
               </p>
             </div>
           </div>
@@ -113,10 +105,7 @@
               <div class="text-center">
                 <h2>Move Me</h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Dignissimos corrupti placeat animi velit, adipisci culpa
-                  blanditiis assumenda saepe quas ex minus reprehenderit
-                  nostrum, commodi possimus libero tempore sunt ut inventore.
+                  Dragging your mouse to move the doggo.
                 </p>
               </div>
             </div>
@@ -155,6 +144,9 @@ export default {
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
+}
+h4{
+  font-size: 32px !important
 }
 
 .text-box {
