@@ -28,7 +28,7 @@
         <div class="text-header text-center">
           <h3>Concept Team</h3>
           <p>
-            We, 418 (Error) Team, would like to present our theme concept is
+            พวกเราทีม 418 (Error) มาบอกสโลแกนบอกว่า
           </p>
         </div>
         <div class="items text-center">
@@ -42,26 +42,23 @@
               </div>
               <div class="desc">
                 <h5>No Bug</h5>
-<!--                <p>-->
-<!--                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.-->
-<!--                  Praesentium magnam quibusdam ut quaerat nostrum excepturi-->
-<!--                  inventore porro quam placeat sed!-->
-<!--                </p>-->
+                <p>
+                  บัคในนี้ไม่ใช่แมลง แต่เกิดผิดพลาด ไม่สามารถทำงานได้
+                 ทุกโค๊ตต้องมีบัค ถ้าเจอก็ต้องแก้สิคับ!!
+                </p>
               </div>
             </div>
 
             <!-- concept-2 -->
             <div class="col-md-4">
               <div class="icons">
-                <i class="bi bi-code-slash text-white"></i>
+                <i class="bi bi-code-slash text-white fa-fw"></i>
               </div>
               <div class="desc">
-                <h5>No Code</h5>
-<!--                <p>-->
-<!--                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.-->
-<!--                  Praesentium magnam quibusdam ut quaerat nostrum excepturi-->
-<!--                  inventore porro quam placeat sed!-->
-<!--                </p>-->
+                <h5>Must Code</h5>
+                <p>
+                  เหล่าชาวโปรแกรมเมอร์ทุกคน ต้องรู้จักโค๊ต อยากเป็นนักพํฒนาเจ๋งๆ ให้มา dev camp สิ
+                </p>
               </div>
             </div>
             <!-- concept-3 -->
@@ -71,11 +68,10 @@
               </div>
               <div class="desc">
                 <h5>No time</h5>
-<!--                <p>-->
-<!--                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.-->
-<!--                  Praesentium magnam quibusdam ut quaerat nostrum excepturi-->
-<!--                  inventore porro quam placeat sed!-->
-<!--                </p>-->
+                <p>
+                  เหมือน time machiene ย้อนกลับเวลาไปหาเธอไม่ได้ (ไม่ใช่แล้ว)
+                  หาเวลาแก้งานทุกครั้ง ถ้าไม่มี ง่วงแค่ไหน ก็ไม่ต้องนอน zzz.
+                </p>
               </div>
             </div>
           </div>
