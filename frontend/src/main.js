@@ -10,6 +10,8 @@ import "./style/style.css";
 import "three/build/three.js";
 import { createPinia } from 'pinia';
 
+
+
 import { TroisJSVuePlugin } from 'troisjs';
 
 
