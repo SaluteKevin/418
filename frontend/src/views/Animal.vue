@@ -12,7 +12,7 @@
           <!--                         :url="`Animal/${animal.id}`">-->
           <!--            </card-animal>-->
           <!--            </div>-->
-          <card-animal> </card-animal>
+          <card-animal />
         </div>
       </div>
     </main>
