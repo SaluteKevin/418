@@ -28,8 +28,7 @@ export default defineComponent({
         orbitCtrl.enableZoom = false;
 
 
-
-     })
+     });
 
 
 
