@@ -65,7 +65,7 @@ export default defineComponent({
       <PointLight color="white" :intensity="1" />
 
       <GltfModel
-        src="@/dog.glb"
+        src="/418/dog.glb"
         @load="onReady"
         ref="box"
         :rotation="{ x: 0, y: 0.5, z: 0.06 }"
