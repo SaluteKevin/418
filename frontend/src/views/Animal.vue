@@ -1,39 +1,46 @@
 <template>
   <div class="contactPage">
-    <Navbar/>
+    <Navbar />
     <main class="container">
       <div class="mainpage row">
         <div class="col-md-4">
-<!--          <div v-if="animals != null">-->
+          <!--          <div v-if="animals != null">-->
 
-<!--            <card-animal v-for="animal in animals"-->
-<!--                          :animal="animal"-->
-<!--                          :key="animal.id"-->
-<!--                         :url="`Animal/${animal.id}`">-->
-<!--            </card-animal>-->
-<!--            </div>-->
-          <card-animal>
-
-          </card-animal>
+          <!--            <card-animal v-for="animal in animals"-->
+          <!--                          :animal="animal"-->
+          <!--                          :key="animal.id"-->
+          <!--                         :url="`Animal/${animal.id}`">-->
+          <!--            </card-animal>-->
+          <!--            </div>-->
+          <card-animal> </card-animal>
         </div>
       </div>
     </main>
   </div>
-
 </template>
 
 <script>
-import Navbar from "../components/Navbar.vue";
+import Navbar from "@/components/Navbar.vue";
 import CardAnimal from "@/components/CardAnimal.vue";
+import { useAnimal } from "@/store/animal.js";
 
 export default {
+  data() {
+    return {
+      animals: [],
+    };
+  },
   components: {
     CardAnimal,
-    Navbar
+    Navbar,
   },
   name: "Animal",
   comments: {
     Navbar,
+  },
+  async mounted() {
+    await useAnimal().fetchData();
+    console.log(useAnimal().getAnimal);
   },
 };
 </script>
