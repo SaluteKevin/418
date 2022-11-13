@@ -1,19 +1,17 @@
 <template>
-  <div class="contactPage">
+  <div class="animalPage">
     <Navbar />
     <main class="container mx-auto mt-4">
-      <div class="row">
-        <div v-if="animals != null" class="col">
-          <div v-for="animal in animals" class="row">
-            <card-animal
-              :title="animal.name"
-              :type="animal.type"
-              :detail="animal.description"
-              :image="animal.image"
-            />
-          </div>
+        <div v-if="animals != null" class="row">
+            <div v-for="animal in animals" class="col ho">
+              <card-animal
+                :title="animal.name"
+                :type="animal.type"
+                :detail="animal.description"
+                :image="animal.image"
+              />
+            </div>
         </div>
-      </div>
     </main>
   </div>
 </template>
@@ -45,6 +43,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.animalPage{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), transparent),
+    url(../assets/background_two.jpg);
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
 .card-body {
   color: #000000 !important;
 }
@@ -55,5 +64,14 @@ export default {
 
 .redbg {
   background-color: red;
+}
+.ho:hover {
+  text-shadow: none !important;
+  box-sizing: border-box !important;
+  transition: all 0.5s ease !important;
+  -webkit-transform: scale(1.05) !important;
+  -ms-transform: scale(1.05) !important;
+  transform: scale(1.05) !important;
+  z-index: 2;
 }
 </style>
