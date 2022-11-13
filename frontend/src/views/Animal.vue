@@ -40,7 +40,7 @@ export default {
   },
   async mounted() {
     await useAnimal().fetchData();
-    console.log(useAnimal().getAnimal);
+    this.animals = useAnimal().getAnimals;
   },
 };
 </script>
